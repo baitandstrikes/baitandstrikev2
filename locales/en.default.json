@@ -1,0 +1,52 @@
+{
+  "general": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "shop": "Shop all",
+    "search": "Search",
+    "cart": "Shopping bag",
+    "view_all": "VIEW ALL",
+    "email": "Email address",
+    "subscribe": "Subscribe",
+    "subscribed": "Thank you for subscribing.",
+    "footer": "Footer navigation",
+    "collection": "THE COLLECTION",
+    "collections": "Collections",
+    "sort": "Sort by",
+    "apply": "Apply",
+    "clear": "Clear",
+    "empty": "No products found.",
+    "results": "{{ count }} results",
+    "not_found": "Page not found",
+    "home": "Back to home",
+    "preview": "PREVIEW",
+    "choose_collection": "Select a collection in the theme editor.",
+    "min_price": "Minimum price",
+    "max_price": "Maximum price"
+  },
+  "product": {
+    "sold_out": "Sold out",
+    "sale": "SALE",
+    "details": "VIEW DETAILS",
+    "placeholder": "Your signature collection",
+    "quantity": "Quantity",
+    "variant": "Choose an option",
+    "add": "Add to bag",
+    "description": "Description"
+  },
+  "cart": {
+    "empty": "Your bag is empty.",
+    "remove": "Remove",
+    "note": "Order note",
+    "total": "Subtotal",
+    "shipping": "Taxes and delivery calculated at checkout.",
+    "update": "Update bag",
+    "checkout": "Checkout"
+  },
+  "contact": {
+    "name": "Name",
+    "message": "Message",
+    "send": "Send message",
+    "success": "Thank you. Your message has been sent."
+  }
+}

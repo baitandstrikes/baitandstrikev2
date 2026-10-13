@@ -1,0 +1,4 @@
+dist/
+.shopify/
+node_modules/
+

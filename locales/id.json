@@ -1,0 +1,52 @@
+{
+  "general": {
+    "skip": "Langsung ke konten",
+    "menu": "Menu",
+    "shop": "Belanja semua",
+    "search": "Cari",
+    "cart": "Tas belanja",
+    "view_all": "LIHAT SEMUA",
+    "email": "Alamat email",
+    "subscribe": "Berlangganan",
+    "subscribed": "Terima kasih sudah berlangganan.",
+    "footer": "Navigasi footer",
+    "collection": "KOLEKSI",
+    "collections": "Koleksi",
+    "sort": "Urutkan",
+    "apply": "Terapkan",
+    "clear": "Hapus filter",
+    "empty": "Tidak ada produk.",
+    "results": "{{ count }} hasil",
+    "not_found": "Halaman tidak ditemukan",
+    "home": "Kembali ke beranda",
+    "preview": "PRATINJAU",
+    "choose_collection": "Pilih koleksi melalui editor tema.",
+    "min_price": "Harga minimum",
+    "max_price": "Harga maksimum"
+  },
+  "product": {
+    "sold_out": "Habis",
+    "sale": "PROMO",
+    "details": "LIHAT DETAIL",
+    "placeholder": "Koleksi pilihan Anda",
+    "quantity": "Jumlah",
+    "variant": "Pilih varian",
+    "add": "Tambah ke tas",
+    "description": "Deskripsi"
+  },
+  "cart": {
+    "empty": "Tas belanja masih kosong.",
+    "remove": "Hapus",
+    "note": "Catatan pesanan",
+    "total": "Subtotal",
+    "shipping": "Pajak dan pengiriman dihitung saat checkout.",
+    "update": "Perbarui tas",
+    "checkout": "Checkout"
+  },
+  "contact": {
+    "name": "Nama",
+    "message": "Pesan",
+    "send": "Kirim pesan",
+    "success": "Terima kasih. Pesan Anda telah terkirim."
+  }
+}

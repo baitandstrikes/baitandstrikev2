@@ -1,0 +1,14 @@
+{
+  "current": {
+    "background": "#ffffff",
+    "text_color": "#121212",
+    "accent": "#a78b65"
+  },
+  "presets": {
+    "Editorial": {
+      "background": "#ffffff",
+      "text_color": "#121212",
+      "accent": "#a78b65"
+    }
+  }
+}

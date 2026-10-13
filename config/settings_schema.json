@@ -1,0 +1,33 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Bait & Strike Editorial",
+    "theme_version": "1.0.0",
+    "theme_author": "Bait & Strike",
+    "theme_documentation_url": "https://github.com/baitandstrikes/baitandstrikev2",
+    "theme_support_url": "https://github.com/baitandstrikes/baitandstrikev2/issues"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text",
+        "default": "#121212"
+      },
+      {
+        "type": "color",
+        "id": "accent",
+        "label": "Focus accent",
+        "default": "#a78b65"
+      }
+    ]
+  }
+]

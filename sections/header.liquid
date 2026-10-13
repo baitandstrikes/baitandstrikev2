@@ -1,0 +1,14 @@
+{% if section.settings.announcement != blank %}<div class="announcement">{{ section.settings.announcement | escape }}</div>{% endif %}
+<header class="header">
+  <details class="menu">
+    <summary aria-label="{{ 'general.menu' | t }}"><span class="menu-icon"><i></i><i></i><i></i></span></summary>
+    <nav aria-label="{{ 'general.menu' | t }}">
+      {% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title | escape }}</a>{% if link.links != blank %}<div class="subnav">{% for child in link.links %}<a href="{{ child.url }}">{{ child.title | escape }}</a>{% endfor %}</div>{% endif %}{% else %}<a href="{{ routes.all_products_collection_url }}">{{ 'general.shop' | t }}</a><a href="{{ routes.search_url }}">{{ 'general.search' | t }}</a>{% endfor %}
+    </nav>
+  </details>
+  <a class="brand" href="{{ routes.root_url }}">{% if section.settings.logo %}{{ section.settings.logo | image_url: width: 420 | image_tag: widths: '210,420', width: 210, class: 'logo', alt: shop.name }}{% else %}{{ section.settings.brand | default: shop.name | escape }}{% endif %}</a>
+  <div class="header-actions"><a href="{{ routes.search_url }}" aria-label="{{ 'general.search' | t }}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg></a><a href="{{ routes.cart_url }}" aria-label="{{ 'general.cart' | t }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Z M8 8V5a4 4 0 0 1 8 0v3"/></svg><span class="cart-count">{{ cart.item_count }}</span></a></div>
+</header>
+{% schema %}
+{"name":"Header","settings":[{"type":"text","id":"announcement","label":"Announcement","default":"Discover the collection — timeless design, everyday purpose"},{"type":"text","id":"brand","label":"Brand name","default":"BAIT & STRIKE"},{"type":"image_picker","id":"logo","label":"Logo"},{"type":"link_list","id":"menu","label":"Navigation","default":"main-menu"}]}
+{% endschema %}

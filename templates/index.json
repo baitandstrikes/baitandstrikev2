@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero"
+    },
+    "promo": {
+      "type": "promo"
+    },
+    "featured": {
+      "type": "featured-collection"
+    },
+    "editorial": {
+      "type": "editorial-grid",
+      "blocks": {
+        "first": {
+          "type": "collection",
+          "settings": {
+            "heading": "Everyday essentials"
+          }
+        },
+        "second": {
+          "type": "collection",
+          "settings": {
+            "heading": "Exceptional by nature"
+          }
+        }
+      },
+      "block_order": [
+        "first",
+        "second"
+      ]
+    },
+    "story": {
+      "type": "story"
+    }
+  },
+  "order": [
+    "hero",
+    "promo",
+    "featured",
+    "editorial",
+    "story"
+  ]
+}
